@@ -546,7 +546,7 @@ It is useful when you need to know the latest price of the product for analytic 
 CREATE TABLE shoe_products_keyed(
   product_id STRING,
   brand STRING,
-  model STRING,
+  `model` STRING,
   sale_price INT,
   rating DOUBLE,
   PRIMARY KEY (product_id) NOT ENFORCED
